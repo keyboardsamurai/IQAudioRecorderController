@@ -30,6 +30,7 @@
 		4CF397381C6FC7D30036C8CE /* microphone_access@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF397351C6FC7D30036C8CE /* microphone_access@3x.png */; };
 		4CF397391C6FC7D30036C8CE /* microphone_access@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF397361C6FC7D30036C8CE /* microphone_access@2x.png */; };
 		4CF3973A1C6FC7D30036C8CE /* microphone_access.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF397371C6FC7D30036C8CE /* microphone_access.png */; };
+		4D1F17581F2D950D263D2C43 /* Pods_IQAudioRecorderController_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA08BAAC32B0D4F07A02E1E4 /* Pods_IQAudioRecorderController_Demo.framework */; };
 		B5D474141A6A2EF200771B83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D474131A6A2EF200771B83 /* main.m */; };
 		B5D474171A6A2EF200771B83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D474161A6A2EF200771B83 /* AppDelegate.m */; };
 		B5D4741A1A6A2EF200771B83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D474191A6A2EF200771B83 /* ViewController.m */; };
@@ -37,11 +38,9 @@
 		B5D4741F1A6A2EF200771B83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D4741E1A6A2EF200771B83 /* Images.xcassets */; };
 		B5D474221A6A2EF200771B83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D474201A6A2EF200771B83 /* LaunchScreen.xib */; };
 		B5D4743B1A6A2F4800771B83 /* IQAudioRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D474391A6A2F4800771B83 /* IQAudioRecorderViewController.m */; };
-		EE424EE440838B61F2FACDD3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CB9E576D87DD5C1F6995FD /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30CB9E576D87DD5C1F6995FD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0BEDF41C70EF8F003BC43A /* IQMessageDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQMessageDisplayView.h; sourceTree = "<group>"; };
 		4C0BEDF51C70EF8F003BC43A /* IQMessageDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQMessageDisplayView.m; sourceTree = "<group>"; };
 		4C148FB91C788A1E00688005 /* IQAudioCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQAudioCropperViewController.h; sourceTree = "<group>"; };
@@ -73,7 +72,8 @@
 		4CF397351C6FC7D30036C8CE /* microphone_access@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone_access@3x.png"; sourceTree = "<group>"; };
 		4CF397361C6FC7D30036C8CE /* microphone_access@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone_access@2x.png"; sourceTree = "<group>"; };
 		4CF397371C6FC7D30036C8CE /* microphone_access.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphone_access.png; sourceTree = "<group>"; };
-		B4757ED4EB990C1B373B49F4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		55362D01F7330562252EF311 /* Pods-IQAudioRecorderController Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQAudioRecorderController Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IQAudioRecorderController Demo/Pods-IQAudioRecorderController Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		A0463524636C3E406057ED78 /* Pods-IQAudioRecorderController Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQAudioRecorderController Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IQAudioRecorderController Demo/Pods-IQAudioRecorderController Demo.release.xcconfig"; sourceTree = "<group>"; };
 		B5D4740E1A6A2EF200771B83 /* IQAudioRecorderController Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IQAudioRecorderController Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D474121A6A2EF200771B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5D474131A6A2EF200771B83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		B5D474211A6A2EF200771B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B5D474381A6A2F4800771B83 /* IQAudioRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQAudioRecorderViewController.h; sourceTree = "<group>"; };
 		B5D474391A6A2F4800771B83 /* IQAudioRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQAudioRecorderViewController.m; sourceTree = "<group>"; };
-		C6A1915A910D0321075889F2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DA08BAAC32B0D4F07A02E1E4 /* Pods_IQAudioRecorderController_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IQAudioRecorderController_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE424EE440838B61F2FACDD3 /* libPods.a in Frameworks */,
+				4D1F17581F2D950D263D2C43 /* Pods_IQAudioRecorderController_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +127,23 @@
 			name = AudioCropperViewController;
 			sourceTree = "<group>";
 		};
+		53E4CFD4FF7F3F37A9C62B18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55362D01F7330562252EF311 /* Pods-IQAudioRecorderController Demo.debug.xcconfig */,
+				A0463524636C3E406057ED78 /* Pods-IQAudioRecorderController Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E8B51511761376AD9FF8F8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA08BAAC32B0D4F07A02E1E4 /* Pods_IQAudioRecorderController_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B53594111A6A531100A81727 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,8 +172,8 @@
 				B5D474371A6A2F4800771B83 /* IQAudioRecorderController */,
 				B5D474101A6A2EF200771B83 /* IQAudioRecorderController Demo */,
 				B5D4740F1A6A2EF200771B83 /* Products */,
-				B734CE3B41117A2ED298E4E7 /* Pods */,
-				E4FA94057184407CBEE6925E /* Frameworks */,
+				53E4CFD4FF7F3F37A9C62B18 /* Pods */,
+				8E8B51511761376AD9FF8F8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,23 +226,6 @@
 			path = ../IQAudioRecorderController;
 			sourceTree = "<group>";
 		};
-		B734CE3B41117A2ED298E4E7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C6A1915A910D0321075889F2 /* Pods.debug.xcconfig */,
-				B4757ED4EB990C1B373B49F4 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E4FA94057184407CBEE6925E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				30CB9E576D87DD5C1F6995FD /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,12 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5D474311A6A2EF200771B83 /* Build configuration list for PBXNativeTarget "IQAudioRecorderController Demo" */;
 			buildPhases = (
-				BF0F08750EC75E249A1833EB /* Check Pods Manifest.lock */,
+				7BABA91841EDCFBC8500846E /* 📦 Check Pods Manifest.lock */,
 				B5D4740A1A6A2EF200771B83 /* Sources */,
 				B5D4740B1A6A2EF200771B83 /* Frameworks */,
 				B5D4740C1A6A2EF200771B83 /* Resources */,
-				65D39FA5F8DBD5E79FE6528C /* Embed Pods Frameworks */,
-				88656FFD208C2889511240BE /* Copy Pods Resources */,
+				CE553846F2D9CDAA3FA3B65B /* 📦 Embed Pods Frameworks */,
+				5EB4C17DFCCC497C8ADC9D0E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,49 +310,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		65D39FA5F8DBD5E79FE6528C /* Embed Pods Frameworks */ = {
+		5EB4C17DFCCC497C8ADC9D0E /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IQAudioRecorderController Demo/Pods-IQAudioRecorderController Demo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		88656FFD208C2889511240BE /* Copy Pods Resources */ = {
+		7BABA91841EDCFBC8500846E /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BF0F08750EC75E249A1833EB /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE553846F2D9CDAA3FA3B65B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IQAudioRecorderController Demo/Pods-IQAudioRecorderController Demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -482,7 +482,7 @@
 		};
 		B5D474321A6A2EF200771B83 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6A1915A910D0321075889F2 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 55362D01F7330562252EF311 /* Pods-IQAudioRecorderController Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Iftekhar Qurashi (7Z2B798BLX)";
@@ -498,7 +498,7 @@
 		};
 		B5D474331A6A2EF200771B83 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4757ED4EB990C1B373B49F4 /* Pods.release.xcconfig */;
+			baseConfigurationReference = A0463524636C3E406057ED78 /* Pods-IQAudioRecorderController Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Iftekhar Qurashi (7Z2B798BLX)";
